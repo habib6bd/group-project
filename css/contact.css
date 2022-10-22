@@ -1,0 +1,50 @@
+.contact_box {
+  cursor: pointer;
+}
+.icon_box i {
+  font-size: var(--h1-font-size);
+  margin-right: 10px;
+}
+.form-control {
+  color: var(--white-color) !important;
+  border: none;
+}
+
+.form-control:focus,
+.form-control:active {
+  background-color: transparent !important;
+}
+
+.website_bg {
+  background: rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+}
+
+.website_bg-alt {
+  background: #0066ff0f;
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+}
+.btn_web {
+  z-index: 100;
+  background-color: var(--primary-color);
+  padding-block: 10px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  color: var(--white-color);
+  text-align: center;
+  margin-block: 35px;
+  transition: 0.4s;
+  border: 0px;
+  outline: 0px;
+}
+
+.btn_web:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+  transition: 0.4s;
+  border: 0;
+}
