@@ -1,0 +1,30 @@
+.our_team_banner {
+    background-color: green;
+    background-image: linear-gradient(#7FB77E, #dbdbdb);
+    margin-top: 80px;
+
+}
+
+.heading-font-size b {
+    font-size: 48px;
+}
+
+.hire-btn {
+    margin-right: 20px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+
+
+.info-btn {
+    font-size: 17px;
+    padding: 20px;
+    background-color: #b9c1b6;
+    color: black;
+}
+
+.info-btn:hover {
+    background-color:#157347 ;
+    color: black;
+}

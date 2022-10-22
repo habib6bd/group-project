@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+:root {
+    --primary-color: #7FB77E;
+    --secondary-color: #B1D7B4;
+  }
+
+
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  .nav-item {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+  .nav-item:hover {
+    border: 1px solid #fff;
+  }
+  .footer-section {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(127,183,126,0.9570027840237657) 33%, rgba(127,183,126,1) 35%); 
+  }
+
