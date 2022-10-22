@@ -25,6 +25,44 @@
 }
 
 .info-btn:hover {
-    background-color:#157347 ;
+    background-color: #157347;
     color: black;
 }
+
+/* banner end  */
+/* catagory start  */
+
+.catagory {
+    background-color: #f2f7f2;
+    border: none;
+
+}
+
+.catagory:hover {
+    background-color: #cbe7c2;
+    cursor: pointer;
+}
+
+.text-clr {
+    color: #077000;
+
+}
+
+.catagory_btn {
+    background-color: #dfdfdf;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.catagory_btn:hover {
+    background-color: #157347;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+
+}
+
+/* catagory end  */
