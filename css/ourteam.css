@@ -109,3 +109,73 @@
 
 
 
+/* our team member area start*/
+.team-bg1{
+    background-image: url(../images/team1.png);
+}
+.team-bg2{
+    background-image: url(../images/team2.png);
+}
+.team-bg3{
+    background-image: url(../images/team3.png);
+}
+.team-bg4{
+    background-image: url(../images/team4.jpg);
+}
+.section-tittle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-tittle h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.signle-team-item {
+    overflow: hidden;
+}
+
+.team-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center top;
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    background-color: #ddd;
+}
+.team-img:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    overflow: hidden;
+}
+.our-team-mamber {
+    padding: 80px 0;
+}
+
+.team-info {
+    text-align: center;
+    padding: 17px;
+    border: 1px solid #E1E1E1;
+}
+
+.team-info span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.team-info h3 {
+    font-size: 25px;
+}
+.team-social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    line-height: 35px;
+    margin: 0 2px;
+    transition: .3s;
+}
+.team-social {
+    margin: 20px 0;
+}
+/* our team member area end */
