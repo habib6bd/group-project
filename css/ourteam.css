@@ -39,8 +39,9 @@
 }
 
 .catagory:hover {
-    background-color: #cbe7c2;
+    /* background-color: #cbe7c2; */
     cursor: pointer;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .text-clr {
@@ -65,4 +66,39 @@
 
 }
 
+
 /* catagory end  */
+/* Experence section start */
+.our_experence {
+    background-image: url("../images/bgatch.jpg");
+    background-color: rgb(119, 119, 119);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading_color {
+    color: white;
+}
+.button-circle{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color:#4f8972;
+    padding: 12px;
+    border-radius: 50%;
+    border: 1px solid greenyellow;
+}
+.button-circle:hover{
+    background-color: #7FB77E;
+    color: white;
+}
+.color-add h4{
+    color: white;
+}
+.color-add p{
+    color: #dbdbdb;
+}
+
+/* Experence section start */
