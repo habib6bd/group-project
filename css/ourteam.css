@@ -79,26 +79,20 @@
 
 .card-img-top{
     border-radius: 50%;
-    width: 50%;
-    height: 30%;
+    width: 105px;
+    height: 100px;
     margin-left: 25%;
    border: 2px solid rgb(34, 139, 34);
    margin-top: 10px;
 }
 
 .review:hover{
-    background-color: #cbe7c2;
-    color: black;
-    padding: 5px 10px;
-    font-size: 15px;
-
+    /* background-color: #cbe7c2; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
 }
 
-.review{
-    width: 250px;
-    height: 100%;
-    
-}
+
 
 .review-header{
     text-align: center;
