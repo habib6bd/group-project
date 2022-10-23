@@ -64,8 +64,43 @@
     font-size: 15px;
 
 }
-
 /* catagory end  */
+
+/* Review Section Start */
+
+.cards-wrapper{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.card-img-top{
+    border-radius: 50%;
+    width: 105px;
+    height: 100px;
+    margin-left: 25%;
+   border: 2px solid rgb(34, 139, 34);
+   margin-top: 10px;
+}
+
+.review:hover{
+    /* background-color: #cbe7c2; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+
+
+
+.review-header{
+    text-align: center;
+    margin: 30px;
+}
+
+/* Review Section Ends */
+
 
 
 /* our team member area start*/
