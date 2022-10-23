@@ -9,6 +9,7 @@ body {
 
   .navbar {
     background-color: var(--primary-color);
+    box-shadow: 2px 4px 6px #9ACA99;
   }
   .nav-item {
     cursor: pointer;
