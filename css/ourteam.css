@@ -65,9 +65,129 @@
     font-size: 15px;
 
 }
-
-
 /* catagory end  */
+
+/* Review Section Start */
+
+.cards-wrapper{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+
+
+
+.card-img-top{
+    border-radius: 50%;
+    width: 105px;
+    height: 100px;
+    margin-left: 25%;
+   border: 2px solid rgb(34, 139, 34);
+   margin-top: 10px;
+}
+
+.review:hover{
+    /* background-color: #cbe7c2; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+}
+
+
+
+.review-header{
+    text-align: center;
+    margin: 30px;
+}
+.review-btn{
+    background-color: #d7d7d7;
+    border: none;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.review-btn:hover{
+    background-color: #157347;
+    cursor: pointer;
+    color: white;
+}
+/* Review Section Ends */
+
+
+
+/* our team member area start*/
+.team-bg1{
+    background-image: url(../images/team1.png);
+}
+.team-bg2{
+    background-image: url(../images/team2.png);
+}
+.team-bg3{
+    background-image: url(../images/team3.png);
+}
+.team-bg4{
+    background-image: url(../images/team4.jpg);
+}
+.section-tittle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-tittle h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.signle-team-item {
+    overflow: hidden;
+}
+
+.team-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center top;
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    background-color: #ddd;
+}
+.team-img:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    overflow: hidden;
+}
+.our-team-mamber {
+    padding: 80px 0;
+}
+
+.team-info {
+    text-align: center;
+    padding: 17px;
+    border: 1px solid #E1E1E1;
+}
+
+.team-info span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.team-info h3 {
+    font-size: 25px;
+}
+.team-social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    line-height: 35px;
+    margin: 0 2px;
+    transition: .3s;
+}
+.team-social {
+    margin: 20px 0;
+}
+/* our team member area end */
+
 /* Experence section start */
 .our_experence {
     background-image: url("../images/bgatch.jpg");
@@ -91,7 +211,7 @@
     border: 1px solid greenyellow;
 }
 .button-circle:hover{
-    background-color: #7FB77E;
+    background-color: #45a144;
     color: white;
 }
 .color-add h4{
