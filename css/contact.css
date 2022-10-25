@@ -1,50 +1,283 @@
+:root {
+  --small_text_color: #879288;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* --------------------------------------------- Reuseable Css Start ----------------------------------------*/
+
+.section {
+  padding-block: 100px 100px;
+}
+
+.btn_contact {
+  margin-top: 20px;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, var(--primary-color), #045a24);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 20px;
+  outline: 0;
+  border: 2px solid white;
+}
+
+.btn_contact:hover {
+  background: white !important;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+/*------------------------------------------ Reuseable Css Start -----------------------------------*/
+
+/*------------------------------------------- Banner Section ---------------------------------------*/
+
+.banner_right {
+  background-color: white;
+}
+
+h2.contact_banner_title {
+  font-weight: 900;
+  font-size: var(--biggest-font-size);
+}
+
+p.contact_banner_desc {
+  font-weight: 500;
+  font-size: var(--normal-font-size);
+  color: var(--small_text_color);
+}
+
+/*------------------------------------------ Banner Section End ---------------------------------------*/
+
+/*------------------------------------------ Contact Information Section Start ---------------------------------------*/
+
+.contact_info_box {
+  box-shadow: 0px 0px 15px var(--small_text_color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding-block: 50px;
+}
+.contact_info_box:hover {
+  background: linear-gradient(163deg, var(--primary-color), #045a24);
+  cursor: pointer;
+  transition: 0.4s;
+  color: white;
+  transform: scale(1.05);
+}
+
+.contact_info_box:hover .contact_info_icon {
+  background-color: white;
+}
+
+.contact_info_box:hover .contact_info_icon i {
+  color: var(--primary-color);
+  transition: 0.4s;
+}
+
+span.contact_info_icon {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+.contact_info_icon i {
+  font-size: 40px;
+  color: white;
+}
+
+h4.contact_info_title {
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+}
+
+/*------------------------------------------ Contact Information Section End ---------------------------------------*/
+
+/*----------------------------------------- Contact Section Start -------------------------------------*/
+
 .contact_box {
   cursor: pointer;
+}
+
+img.contact_image {
+  width: 100%;
 }
 .icon_box i {
   font-size: var(--h1-font-size);
   margin-right: 10px;
 }
-.form-control {
-  color: var(--white-color) !important;
-  border: none;
+
+.contact_head_title {
+  color: var(--primary-color);
+  font-size: var(--h3-font-size);
+  margin-top: 10px;
+}
+
+.contact_form_title {
+  font-size: var(--biggest-font-size);
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 .form-control:focus,
 .form-control:active {
-  background-color: transparent !important;
+  box-shadow: none;
+  border: 2px solid var(--primary-color);
+}
+h3.form_title {
+  color: var(--primary-color);
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 900;
 }
 
-.website_bg {
-  background: rgba(0, 0, 0, 0.19);
-  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-  backdrop-filter: blur(9.3px);
-  -webkit-backdrop-filter: blur(9.3px);
+span.form_subtitle {
+  font-weight: 400;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: var(--small_text_color);
 }
 
-.website_bg-alt {
-  background: #0066ff0f;
-  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-  backdrop-filter: blur(9.3px);
-  -webkit-backdrop-filter: blur(9.3px);
+/*------------------------------------------------- Contact Section End -------------------------------------*/
+
+/*----------------------------------------- Social Media Start -----------------------------------*/
+
+.social_container {
+  background: linear-gradient(163deg, var(--primary-color), #045a24);
+  border-radius: 15px;
 }
-.btn_web {
-  z-index: 100;
-  background-color: var(--primary-color);
-  padding-block: 10px;
-  padding-inline: 20px;
-  border-radius: 5px;
-  color: var(--white-color);
+
+span.social_media_subtitle {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.social_icon {
+  margin-top: 30px;
+}
+
+h3.social_title {
+  font-size: var(--biggest-font-size);
+  margin-top: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.social_icon_box i {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.social_icon_box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
   text-align: center;
-  margin-block: 35px;
-  transition: 0.4s;
-  border: 0px;
-  outline: 0px;
+  padding: 3px 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.btn_web:hover {
+.social_icon_box:hover {
   background-color: var(--secondary-color);
-  transform: scale(1.05);
   transition: 0.4s;
-  border: 0;
 }
+
+.social_icon_box:hover i {
+  color: white !important;
+}
+
+.social_image {
+  width: 350px;
+}
+/*----------------------------------------- Social Media End -------------------------------------*/
+
+/*-----------------------------------------  Newsletter Start -------------------------------------*/
+.email_input_box {
+  border: 2px solid var(--secondary-color);
+  border-radius: 17px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input.newsletter_input {
+  border: 0;
+  outline: 0;
+  padding: 14px 0px;
+  font-size: 23px;
+}
+
+span.email_input_box span {
+  display: inline-flex;
+  align-items: center;
+}
+
+button.btn_newsletter {
+  border: none;
+  padding: 19px 40px;
+  border-radius: 17px;
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(163deg, var(--primary-color), #045a24);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px var(--secondary-color);
+  display: inline-block;
+  margin-right: 1px;
+}
+
+.email_input_box i {
+  font-size: 23px;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 576px) {
+  .email_input_box {
+    border: 0;
+    display: inline-block;
+  }
+
+  .email_input_box span {
+    border: 2px solid var(--primary-color);
+    display: block;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  button.btn_newsletter {
+    margin: auto;
+  }
+}
+
+/*-----------------------------------------  Newsletter End -------------------------------------*/
