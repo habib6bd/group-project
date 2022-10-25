@@ -114,83 +114,48 @@
     color: white;
 }
 /* Review Section Ends */
+/* our team member area start */
 
-
-
-/* our team member area start*/
-.team-bg1{
-    background-image: url(../images/team1.png);
+i.fa-brands.fa-facebook {
+    padding: 0 10px 20px 0;
+    font-size: 20px;
+    color: #0572E6;
 }
-.team-bg2{
-    background-image: url(../images/team2.png);
+i.fa-brands.fa-facebook:hover{
+    font-size: 21px;
+    color: #00188f;
 }
-.team-bg3{
-    background-image: url(../images/team3.png);
+i.fa-brands.fa-instagram {
+    color: #F50151;
+    font-size: 20px;
+    padding: 0 10px 0 0;
 }
-.team-bg4{
-    background-image: url(../images/team4.jpg);
+i.fa-brands.fa-instagram:hover{
+    font-size: 21px;
+    color: #ff0000;
 }
-.section-tittle {
-    text-align: center;
-    margin-bottom: 50px;
+i.fa-brands.fa-linkedin {
+    font-size: 20px;
+    padding: 0 10px 0 0;
+    color: #0077B5;
 }
-
-.section-tittle h2 {
-    font-size: 35px;
-    text-transform: uppercase;
+i.fa-brands.fa-linkedin:hover{
+    font-size: 21px;
+    color: #00188f;
 }
-.signle-team-item {
-    overflow: hidden;
+i.fa-brands.fa-twitter {
+    font-size: 20px;
+    color: #1DA1F2;
 }
-
-.team-img {
-    height: 300px;
-    background-size: cover;
-    background-position: center top;
-    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-    background-color: #ddd;
-}
-.team-img:hover {
-    transform: scale3d(1.1, 1.1, 1.1);
-    overflow: hidden;
-}
-.our-team-mamber {
-    padding: 80px 0;
-}
-
-.team-info {
-    text-align: center;
-    padding: 17px;
-    border: 1px solid #E1E1E1;
-}
-
-.team-info span {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    display: inline-block;
-}
-
-.team-info h3 {
-    font-size: 25px;
-}
-.team-social a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border: 1px solid;
-    line-height: 35px;
-    margin: 0 2px;
-    transition: .3s;
-}
-.team-social {
-    margin: 20px 0;
+i.fa-brands.fa-twitter:hover{
+font-size: 21px;
+color: #00188f;
 }
 /* our team member area end */
 
 /* Experence section start */
-.our_experence {
-    background-image: url("../images/bgatch.jpg");
+.our_experience {
+    background-image: url("/images/our-team/bgatach.jpg");
     background-color: rgb(119, 119, 119);
     background-blend-mode: multiply;
     background-attachment: fixed;
@@ -203,22 +168,30 @@
 }
 .button-circle{
     color: white;
+    width: 91px;
+    height: 85px;
+    text-align: center;
     font-size: 25px;
     text-decoration: none;
-    background-color:#4f8972;
-    padding: 12px;
+    background-color: #4f8972;
+    margin-bottom: 20px;
     border-radius: 50%;
-    border: 1px solid greenyellow;
+    border: 1px solid;
+    margin: auto;
 }
 .button-circle:hover{
     background-color: #45a144;
     color: white;
+    cursor: pointer;
 }
-.color-add h4{
+.color-add{
     color: white;
+    margin: 20px 0 0 0;
 }
-.color-add p{
-    color: #dbdbdb;
+i.fa-solid.fa-star {
+    padding: 0 0 16px 0;
+    font-size: 14px;
+    color: orange;
 }
 
 /* Experence section start */
