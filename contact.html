@@ -17,6 +17,10 @@
       rel="stylesheet"
       src="css/fontawesome-free-5.15.4-web/fontawesome.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/all.min.css"> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contact.css" />
@@ -92,52 +96,100 @@
       </header>
       <!-- Nav Bar End -->
 
-      <!--  Contact Section -->
+      <!-- ---------------------------------- Contact Section End ------------------------------- -->
 
-      <section class="section" id="contact">
-        <h2 class="section_title">Contact me</h2>
+      <!-- ============================= Contact Page Banner Start ======================= -->
+      <section class="banner">
         <div class="container">
-          <div class="upper_contact mb-5">
-            <div class="row">
-              <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                <div
-                  class="contact_box d-flex flex-row website_bg w-100 m-auto py-4 px-4 rounded"
-                >
-                  <div class="icon_box"><i class="ri-phone-line"></i></div>
-                  <div class="icont_text">
-                    <h4 class="icon_text_title">Call Me</h4>
-                    <span>+8801303935137</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                <div
-                  class="contact_box d-flex flex-row website_bg w-100 m-auto py-4 px-4 rounded"
-                >
-                  <div class="icon_box"><i class="ri-mail-open-line"></i></div>
-                  <div class="icont_text">
-                    <h4 class="icon_text_title">Email</h4>
-                    <span class="text-wrap">mdarafatsiam1590@gmail.com</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4 mb-3 mb-lg-0">
-                <div
-                  class="contact_box d-flex flex-row website_bg w-100 m-auto py-4 px-4 rounded"
-                >
-                  <div class="icon_box"><i class="ri-map-pin-line"></i></div>
-                  <div class="icont_text">
-                    <h4 class="icon_text_title">Location</h4>
-                    <span>Mohammadpur, Dhaka</span>
-                  </div>
-                </div>
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 banner_left order-md-0 order-1">
+              <h3 class="contact_head_title">Contact Us</h3>
+              <h2 class="contact_banner_title">
+                Stay Connected with <br />
+                Us
+              </h2>
+              <p class="contact_banner_desc">
+                Want to get in touch with us? We would love to hear from
+                you.You're not going to hit a ridiculously long phone menu when
+                you call us. Your email isn't going to the inbox abyss, never to
+                be seen or heard from again.
+              </p>
+              <button class="btn_contact">Know more</button>
+            </div>
+            <div class="col-12 col-md-6 banner_right">
+              <div class="image_box">
+                <img
+                  src="./images/contact_page/Contact us-bro.svg"
+                  alt=""
+                  width="100%"
+                />
               </div>
             </div>
           </div>
-          <form action="" class="form needs-validation" novalidate>
-            <div class="row">
-              <div class="col">
+        </div>
+      </section>
+
+      <!--========================= Contact Page Banner End =======================-->
+
+      <!--======================== Contact Page Contact Information Start =======================-->
+
+      <div class="section contact_info">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center px-3 mb-3 mb-md-0">
+              <div class="contact_info_box">
+                <span class="contact_info_icon"
+                  ><i class="ri-smartphone-line"></i
+                ></span>
+                <h4 class="contact_info_title">Phone</h4>
+                <span>+88017363628</span>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 text-center px-3 mb-3 mb-md-0">
+              <div class="contact_info_box">
+                <span class="contact_info_icon"
+                  ><i class="ri-mail-open-line"></i
+                ></span>
+                <h4 class="contact_info_title">Email</h4>
+                <span>tazza@gmail.com</span>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 text-center px-3">
+              <div class="contact_info_box">
+                <span class="contact_info_icon"
+                  ><i class="ri-map-pin-line"></i
+                ></span>
+                <h4 class="contact_info_title">Location</h4>
+                <span>8/B,Mohakhali DOHS, Dhaka</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ======================== Contact Page Contact Information End =======================-->
+
+      <!--======================== Contact Page Contact Form Start =======================-->
+
+      <section class="contact section">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-md-6 form_image_box">
+              <div class="image_box">
+                <img
+                  src="./images/contact_page/contact.jpg"
+                  alt=""
+                  class="contact_image"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 form_part">
+              <h3 class="form_title">Get In Touch</h3>
+              <span class="form_subtitle"
+                >When, while lovely valley teems with vapour around meand .
+                .</span
+              >
+              <form action="" class="form needs-validation" novalidate>
                 <div class="form-floating mb-3">
                   <input
                     type="text"
@@ -146,14 +198,14 @@
                     placeholder="name@example.com"
                     required
                   />
+
                   <div class="valid-feedback">Looks good!</div>
                   <div class="invalid-feedback">
                     Please Enter your First Name
                   </div>
                   <label for="floatingInput">First Name</label>
                 </div>
-              </div>
-              <div class="col">
+
                 <div class="form-floating mb-3">
                   <input
                     type="text"
@@ -168,42 +220,135 @@
                   </div>
                   <label for="floatingInput">Last Name</label>
                 </div>
-              </div>
+
+                <div class="form-floating mb-3" has-validation>
+                  <input
+                    type="email"
+                    class="form-control website_bg"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                  <div class="invalid-feedback">
+                    Please Enter a valid Email Address
+                  </div>
+                  <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control text_area website_bg"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 150px"
+                    required
+                  ></textarea>
+                  <div class="valid-feedback">Looks good!</div>
+                  <div class="invalid-feedback">Write your Message Here</div>
+                  <label for="floatingTextarea2">Message</label>
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button type="submit" class="btn_contact">Send</button>
+                </div>
+              </form>
             </div>
-            <div class="form-floating mb-3" has-validation>
-              <input
-                type="email"
-                class="form-control website_bg"
-                id="floatingInput"
-                placeholder="name@example.com"
-                required
-              />
-              <div class="valid-feedback">Looks good!</div>
-              <div class="invalid-feedback">
-                Please Enter a valid Email Address
-              </div>
-              <label for="floatingInput">Email</label>
-            </div>
-            <div class="form-floating">
-              <textarea
-                class="form-control text_area website_bg"
-                placeholder="Leave a comment here"
-                id="floatingTextarea2"
-                style="height: 100px"
-                required
-              ></textarea>
-              <div class="valid-feedback">Looks good!</div>
-              <div class="invalid-feedback">Write your Message Here</div>
-              <label for="floatingTextarea2">Message</label>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button type="submit" class="btn_web btn_big">Send</button>
-            </div>
-          </form>
+          </div>
         </div>
       </section>
 
-      <!--  Contact Section -->
+      <!-- ============================= Contact Page Contact Form End ======================= -->
+
+      <!--======================== Contact Page Social Media Start =======================-->
+
+      <div class="social_media px-3">
+        <div class="container social_container px-4 py-4">
+          <div class="row align-items-center justify-content-between px-5">
+            <div class="col-12 col-md-6 social_left">
+              <span class="social_media_subtitle">Social Media</span>
+              <h3 class="social_title">
+                Unlock The Full Potential Of Social Media
+              </h3>
+              <div class="d-flex social_icon">
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="social_icon_box"
+                  ><i class="ri-facebook-circle-fill"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="social_icon_box"
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  class="social_icon_box"
+                  ><i class="ri-twitter-fill"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 text-end d-none d-md-block">
+              <img
+                src="./images/contact_page/social-media.webp"
+                alt=""
+                class="social_image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--======================== Contact Page Social Media End =======================-->
+
+      <!-- ============================= Contact Page Map Start ======================= -->
+
+      <section class="section map_section section">
+        <div class="container">
+          <h3 class="form_title">Find Us</h3>
+          <div class="map pt-4">
+            <iframe
+              src="https://my.atlistmaps.com/map/732da863-fa61-47c2-83ec-3eaf762141e2?share=true"
+              allow="geolocation"
+              width="100%"
+              height="400px"
+              frameborder="0"
+              scrolling="no"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= Contact Map End ======================= -->
+
+      <!--======================== Contact Page Newsletter Start =======================-->
+
+      <div class="section newsletter_section">
+        <div class="container text-center">
+          <span class="newsletter_subtitle">Join Our Community</span>
+          <h3 class="form_title">Subscribe to Our Newsletter</h3>
+          <p class="contact_banner_desc">
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born <br />
+            and I will give you a complete.
+          </p>
+
+          <span class="email_input_box">
+            <span>
+              <i class="ri-arrow-right-s-line"></i>
+              <input type="email" class="newsletter_input" required />
+            </span>
+
+            <button class="btn_newsletter">Subscribe Now</button>
+          </span>
+        </div>
+      </div>
+
+      <!--======================== Contact Page Newsletter End =======================-->
+
+      <!-- ---------------------------------- Contact Section End ------------------------------- -->
 
       <!-- Footer Section -->
       <div class="my-5">
@@ -326,6 +471,7 @@
       </div>
       <!-- Footer Section End -->
     </div>
+    <script src="./js/contactPage.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
 </html>
