@@ -24,6 +24,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+::selection {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 /* --------------------------------------------- Reuseable Css Start ----------------------------------------*/
 
 .section {
@@ -36,7 +41,7 @@ body {
   background: linear-gradient(135deg, var(--primary-color), #045a24);
   color: white;
   font-weight: 700;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.3s;
   font-size: 20px;
   outline: 0;
