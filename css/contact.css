@@ -38,22 +38,22 @@ body {
 .btn_contact {
   margin-top: 20px;
   padding: 15px 40px;
-  background: linear-gradient(135deg, var(--primary-color), #045a24);
-  color: white;
+  background: white;
+  color: var(--primary-color);
   font-weight: 700;
   border-radius: 10px;
   transition: 0.3s;
   font-size: 20px;
   outline: 0;
-  border: 2px solid white;
+  border: 2px solid var(--primary-color);
 }
 
 .btn_contact:hover {
-  background: white !important;
-  border: 2px solid var(--primary-color);
+  color: white !important;
   cursor: pointer;
   color: var(--primary-color);
   transition: 0.3s;
+  background: linear-gradient(135deg, var(--primary-color), #045a24);
 }
 
 /*------------------------------------------ Reuseable Css Start -----------------------------------*/
@@ -85,6 +85,7 @@ p.contact_banner_desc {
   cursor: pointer;
   transition: 0.4s;
   padding-block: 50px;
+  border: 1px solid var(--primary-color);
 }
 .contact_info_box:hover {
   background: linear-gradient(163deg, var(--primary-color), #045a24);
